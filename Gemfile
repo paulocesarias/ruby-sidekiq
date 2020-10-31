@@ -55,4 +55,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'sidekiq'
+gem 'redis-rails', '~> 5'
+gem 'redis-store'
+# gem 'hiredis'
+
 gem 'pg', group: :production
